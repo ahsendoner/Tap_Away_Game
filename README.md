@@ -4,7 +4,7 @@
 **Ahsen Doner, Iris Lin**
 
 ## Introduction
-The game we have implemented is influenced by the mobile game *Tap Away*. The objective is to clear the screen by selecting boxes, which move in the direction of their arrows once selected. If the selected box is blocked by another box, it will move until it reaches the blocking box. This game was made in C and developed using Altera De1-Soc board.
+The game we have implemented is influenced by the mobile game *Tap Away*, but developed for Altera De1-Soc board in C language. The objective is to clear the screen by selecting boxes, which move in the direction of their arrows once selected. If the selected box is blocked by another box, it will move until it reaches the blocking box.
 
 ## Game Operation
 
@@ -43,6 +43,5 @@ By pressing *Enter*, a new level is randomly generated with different block arra
 ## Challenges
 Implementing the game in **3D** was challenging since the logic needed to account for 3D and we needed to add the rotation feature to rotate 3D cubes.
 We were able to implement the 3D game by taking small but frequent steps, such as first implementing the game in 2D, and developing the logic accordingly, and enhancing the game into 3D later on.
-![CPULator output of the 3D visual.](path/to/3d_output.png)
 
 
